@@ -11,7 +11,7 @@ const MainContainer = styled.div`
 `;
 
 const ContentContainer = styled.div`
-  max-width: 1200px;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 80px 48px;
   display: flex;
@@ -67,7 +67,7 @@ const FeatureDescription = styled.p`
   font-family: 'Outfit', sans-serif;
   font-weight: 400;
   font-size: 20px;
-  line-height: 1.5em;
+  line-height: 1.2em;
   color: #1B2128;
   margin: 0;
   opacity: 0.8;
@@ -87,7 +87,7 @@ const FeatureImage = styled.div<{ height?: string }>`
 const features = [
   {
     title: 'Automated Learning Plans',
-    description: 'Create personalized learning paths that adapt to each employee\'s needs and progress. Our AI-powered system ensures optimal skill development.',
+    description: 'Create personalized learning paths effortlessly',
     image: automationImg,
     isLarge: true,
   },
