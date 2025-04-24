@@ -47,6 +47,7 @@ const HeroImage = styled.div`
     left: 0;
     right: 0;
     bottom: 0;
+    background: linear-gradient(180deg, rgba(251, 252, 254, 0) 0%, rgba(251, 252, 254, 1) 100%);
     pointer-events: none;
   }
 `;
@@ -54,7 +55,7 @@ const HeroImage = styled.div`
 const Hero: React.FC = () => {
   return (
     <HeroContainer>
-      <HeroTitle>Simplify Compliance Training</HeroTitle>
+      <HeroTitle>Streamline Compliance Training</HeroTitle>
       <HeroImage />
     </HeroContainer>
   );
