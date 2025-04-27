@@ -39,23 +39,12 @@ const HeroImage = styled.div`
   background-image: url(${heroImage});
   background-size: cover;
   background-position: center;
-  
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(180deg, rgba(251, 252, 254, 0) 0%, rgba(251, 252, 254, 1) 100%);
-    pointer-events: none;
-  }
 `;
 
 const Hero: React.FC = () => {
   return (
     <HeroContainer>
-      <HeroTitle>Streamline Compliance Training</HeroTitle>
+      <HeroTitle>Simplify Compliance Training</HeroTitle>
       <HeroImage />
     </HeroContainer>
   );
